@@ -329,7 +329,6 @@ contract BatchTransactions is ReentrancyGuard, Ownable {
     /**
      * @dev Get batch details
      * @param _batchId ID of the batch
-     * @return Batch data
      */
     function getBatch(uint256 _batchId) 
         external 
@@ -365,7 +364,6 @@ contract BatchTransactions is ReentrancyGuard, Ownable {
      * @dev Get transaction details
      * @param _batchId ID of the batch
      * @param _transactionIndex Index of the transaction
-     * @return Transaction data
      */
     function getTransaction(uint256 _batchId, uint256 _transactionIndex) 
         external 
